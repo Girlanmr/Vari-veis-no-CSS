@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+:root{
+    --corPadrao: pink;
+    --widthPadrao: 1800px;
+}
+div{
+    background-color: var(--corPadrao);
+    max-width: var(--widthPadrao);
+    margin: 0 auto;
+}
